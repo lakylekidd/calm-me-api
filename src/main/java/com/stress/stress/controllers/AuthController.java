@@ -1,8 +1,5 @@
 package com.stress.stress.controllers;
 
-import java.net.http.HttpHeaders;
-import java.util.List;
-
 import com.stress.stress.domain.User;
 import com.stress.stress.domain.UserAuthData;
 import com.stress.stress.helpers.TokenHelper;
@@ -11,12 +8,9 @@ import com.stress.stress.services.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 @CrossOrigin(origins = "http://localhost:4200")
