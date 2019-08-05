@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://calm-me.herokuapp.com")
 @RestController
 @RequestMapping(UserController.BASE_URL) // Map the URL to this controller
 public class UserController {
